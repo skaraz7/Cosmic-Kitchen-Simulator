@@ -1,0 +1,53 @@
+# Documento de Diseño del Juego (GDD)
+
+## 1. Visión del Juego
+
+* **Nombre del Juego:** Cosmic Kitchen Simulator
+* **Concepto Principal:** Un juego de simulación de restaurante caótico y cómico donde los jugadores cocinan comida alienígena para clientes excéntricos.
+* **Plataformas:** PC (Steam, itch.io)
+* **Público Objetivo:** Jugadores casuales, fans de juegos de gestión del tiempo como *Overcooked!*, y espectadores de transmisiones en vivo que disfrutan del humor absurdo y el caos impredecible.
+* **Punto de Venta Único (USP):** El humor se basa en el **fracaso y el caos controlado**. Todo puede salir mal en un instante de forma cómica. La clave está en la física absurda de los ingredientes (escupitajos de mounstros, dientes podridos, babas, etc.) y las reacciones exageradas de los clientes, lo que lo hace perfecto para ser transmitido en vivo y crear momentos memorables.
+
+---
+
+## 2. Mecánicas del Juego
+
+* **Ciclo de Jugabilidad Principal:** El bucle de juego se centra en la gestión de la cocina en tiempo real.
+    1.  **Llega el cliente alienígena.**
+    2.  **Se recibe la orden:** El cliente habla en un lenguaje de garabatos, pero en la pantalla del jugador aparece una lista de los ingredientes necesarios para la receta.
+    3.  **Búsqueda de Ingredientes:** El jugador debe ir a la despensa, un almacén peculiar donde los ingredientes se obtienen de fuentes vivas (mounstros que producen babas) o de objetos extraños.
+    4.  **Preparación de la Receta:** El jugador lleva los ingredientes a las estaciones de cocina (parrillas, mezcladores, freidoras) para procesarlos y crear el plato final.
+    5.  **Entrega y Pago:** Si la receta es correcta, el jugador recibe un pago en "monedas alienígenas".
+* **Mecánicas de Caos y Reacciones:**
+    * **Clientes Enojados:** Un servicio lento o un pedido incorrecto puede enojar a un cliente. Sus reacciones son la principal fuente de caos.
+        * Un cliente alienígena que escupe fuego puede prenderle fuego a la cocina.
+        * Un cliente que manipula la gravedad puede hacer que los objetos floten y se estrellen.
+        * Otro puede hacer que la pantalla del jugador se invierta o se distorsione por unos segundos.
+* **Mecánicas Adicionales:**
+    * **Progresión:** El dinero ganado se utiliza para comprar nuevas y extrañas recetas, así como utensilios de cocina mejorados. El jugador también puede comprar ayudantes, como un robot de limpieza o un alienígena de seguridad para lidiar con clientes problemáticos.
+    * **Economía:** Se gana dinero vendiendo productos. Se gasta en ingredientes específicos, recetas y mejoras. Los ayudantes tienen un costo de pago por hora.
+    * **Objetivo del Jugador:** Servir a la mayor cantidad de clientes posible en un día de trabajo para ganar dinero y expandir su restaurante, desbloqueando nuevos clientes y desafíos más difíciles.
+
+---
+
+## 3. Arte y Estilo
+
+* **Estilo Visual:** **Low-poly y estilizado**, lo que permite una producción rápida de modelos y un rendimiento gráfico bajo. El diseño será caricaturesco, exagerando las formas y proporciones para el humor.
+* **Paleta de Colores:** Inspirada en el estilo de *Rick and Morty*, con **colores vivos y saturados** que contrastan con un fondo oscuro y espacial. Las luces de neón y las texturas alienígenas harán que cada ingrediente y personaje sea memorable.
+* **Modelos de Personajes:** Los alienígenas serán diseños simples pero expresivos y graciosos, con grandes ojos, extremidades raras, mucho pelo y formas corporales peculiares.
+* **Interfaz de Usuario (UI):** La interfaz será **minimalista y funcional**, con iconos claros y un diseño espacial. La prioridad es la legibilidad de las órdenes y el estado del jugador.
+
+---
+
+## 4. Sonido
+
+* **Música:** Una banda sonora de fondo **cómica y alegre**, con un ritmo constante que se adapte a la acción.
+* **Efectos de Sonido (SFX):** Sonidos de cocina exagerados, ruidos de alienígenas (no voces reales, sino sonidos graciosos), y efectos de caos (explosiones, burbujas, etc.).
+* **Audio de la Interfaz:** Sonidos de clic y de retroalimentación que confirmen las acciones del jugador.
+
+---
+
+## 5. Monetización y Requerimientos
+
+* **Modelo de Monetización:** **Venta única.** El objetivo es lanzar el juego en **Early Access en Steam** para obtener fondos para el desarrollo continuo y la mejora del juego.
+* **Requisitos del Sistema:** El juego está diseñado para tener **requisitos mínimos bajos** para que sea accesible para la mayoría de las computadoras. Nuestro objetivo de optimización es que el juego se ejecute a **1080p y 60 FPS con 4GB de VRAM como máximo**, lo que garantiza una jugabilidad fluida incluso en hardware modesto.
