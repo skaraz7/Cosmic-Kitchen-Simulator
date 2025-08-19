@@ -1,0 +1,4 @@
+repository "Cosmic Kitcher Simulator/Cosmic Kitcher Simulator@4673088295401@cloud"
+  path "/"
+    br "/main"
+    co "/main"
